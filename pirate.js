@@ -1,5 +1,5 @@
-var request = require.safe('request'),
-    querystring = require.safe("querystring");
+var request = require('request'),
+    querystring = require("querystring");
 
 exports.pirate = function (query, callback) {
     var uriEncodedQuery = querystring.stringify({text: query}),
